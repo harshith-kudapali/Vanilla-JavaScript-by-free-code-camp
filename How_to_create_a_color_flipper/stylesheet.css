@@ -26,7 +26,7 @@
     padding: 0; /* Add padding if you want space around items */
     margin-left: auto;
     margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Montserrat;
 }
 a{
     text-decoration: none;
@@ -50,7 +50,7 @@ a{
     margin-bottom: 20px;
     color: #ffffff;
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Montserrat;
 }
 button{
     position: absolute;

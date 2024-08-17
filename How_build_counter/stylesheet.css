@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+
+}
+.whole{
+    position:absolute;
+    margin-left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+#counter{
+    font-family: Oswald ;
+}
+#num{
+    margin-left: 40px;
+    font-size: xxx-large;
+}
+#controls ul{
+    list-style: none;
+    display: flex;
+    position:absolute;
+    margin-left: 50%;
+    top:65%;
+    transform: translate(-50%,-50%);
+   
+}
+#controls button{
+    max-width: 100%;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: rgb(57, 179, 255);
+    border-radius: 8px;
+    font-family: Oswald
+    ;
+}
+body{
+    background-color:beige;
+}
