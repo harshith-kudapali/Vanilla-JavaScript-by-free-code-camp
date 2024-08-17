@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    position: fixed; /* Or absolute, depending on your layout needs */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; /* Ensure it spans the full width of the viewport */
+     box-shadow: 1px 0px 10px 1px black;
+}
+.navBar ul {
+    background-color: white;
+    height: 10mm;
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center items */
+
+}
+
+.navBar ul li {
+    margin: 0; /* Adjust if needed for spacing between items */
+    padding: 0; /* Add padding if you want space around items */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+}
+#BG{
+    
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  border: 0cap;
+}
+#click{
+    cursor: pointer;
+}
+#color{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
