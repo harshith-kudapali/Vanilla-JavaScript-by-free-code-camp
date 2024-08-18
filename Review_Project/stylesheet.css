@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&family=Grey+Qo&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    text-align: center;
+}
+
+#top {
+    padding: 5px;
+    margin-top: 0%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.416);
+    
+}
+
+.head h1 {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+}
+
+#underLine {
+    margin-bottom: 10px;
+    width: 80px;
+    /* or any desired width */
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid black;
+    /* Define the thickness and style */
+}
+
+#box {
+    border: solid white;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    padding: 5%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.331);
+    margin-bottom: 10%;
+    height: 300px;
+    width: 400px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.331);
+}
+
+#name{
+    margin-top: 2%;
+    font-size: x-large;
+}
+#job{
+    color: rgb(19, 186, 186);
+}
+#about{color: rgba(0, 0, 0, 0.708);
+    text-align: center;
+    font-size:small;
+}
+#Lt, #Rt {
+    border:none ;
+    background-color: white;
+    color: aquamarine;
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding for size */
+    font-size: 25px; /* Increase font size */
+    text-align: center; /* Center text inside the button */
+
+}
+#rand{
+    border: solid greenyellow;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: rgba(128, 255, 0, 0.304);
+    cursor: pointer;
+}
+#rand:hover{
+    background-color: rgba(26, 122, 5, 0.384) ;
+}
