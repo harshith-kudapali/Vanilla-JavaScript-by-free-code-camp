@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px black solid;
+}
+nav{
+}
+ul{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+li{
+  padding-left:10%;
+  padding-right: 2%;
+}
+.first-item{
+  padding-left:2%;
+  padding-right: 0%;
+  margin-right: auto;
+  background-color: aqua;
+}
